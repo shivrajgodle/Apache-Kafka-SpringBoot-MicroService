@@ -17,9 +17,9 @@ $ bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server lo
 
 STEP 3: WRITE SOME EVENTS INTO THE TOPIC
 
-$ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
+$ bin/kafka-console-producer.sh --topic cab-location --bootstrap-server localhost:9092
 
 STEP 4: READ THE EVENTS
 
-$ bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
+$ bin/kafka-console-consumer.sh --topic cab-location --from-beginning --bootstrap-server localhost:9092
 
